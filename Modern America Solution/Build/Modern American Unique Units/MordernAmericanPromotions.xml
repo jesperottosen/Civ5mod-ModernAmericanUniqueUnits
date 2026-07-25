@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by yepzer on 7/25/2026 5:04:45 PM -->
+<GameData>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_ANTI_TANK</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<PromotionType>PROMOTION_EMBARKED_SIGHT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<PromotionType>PROMOTION_DEFENSIVE_EMBARKATION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<!-- Zolton's Tweaks - Marines to Mechanized Infantry -->
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+			<PromotionType>PROMOTION_EMBARKED_SIGHT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MECHANIZED_INFANTRY</UnitType>
+			<PromotionType>PROMOTION_DEFENSIVE_EMBARKATION</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<!-- From the True Marines Mod -->
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<PromotionType>PROMOTION_GAIN_EXPERIENCE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<PromotionType>PROMOTION_MARINE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<UnitPromotions>
+		<!-- Entries below this are intrinsic special Unit abilities, and never awarded for gaining XP/levels -->
+		<Row>
+			<Type>PROMOTION_MARINE</Type>
+			<Description>TXT_KEY_PROMOTION_MARINE</Description>
+			<Help>TXT_KEY_PROMOTION_MARINE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<ExtraNavalMovement>4</ExtraNavalMovement>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MARINE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+  
+</GameData>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="083388ec-b35c-4be0-b64a-220650e81f52" version="1">
+  <Properties>
+    <Name>Modern American Unique Units</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Updated Marines and Helicopter.</Teaser>
+    <Description>Update American Unique Units to updated Marines and Helicopter.
+Marines and Helicopters removed for other players.</Description>
+    <Authors>yepzer</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>1</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References>
+    <Mod id="b6df1726-2496-47bb-9a18-caa25fdc75a7" minversion="5" maxversion="999" title="True Marines Mod" />
+    <Mod id="4b263e5e-6369-41f5-89d6-2b43bce74fa9" minversion="0" maxversion="999" title="Zolton's Tweaks - Marines to Mechanized Infantry" />
+  </References>
+  <Blocks />
+  <Files>
+    <File md5="4E92E5E633C0D3BF74E9004D55ED0574" import="0">ModernAmericanCiv.xml</File>
+    <File md5="1E36DC43B04B6440FAA86905673A4ABD" import="0">MordernAmericanPromotions.xml</File>
+    <File md5="64AF70D5930E649DD840748E5356FDAD" import="0">ModernAmericanUnits.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>ModernAmericanCiv.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmericanUnits.xml</UpdateDatabase>
+      <UpdateDatabase>MordernAmericanPromotions.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

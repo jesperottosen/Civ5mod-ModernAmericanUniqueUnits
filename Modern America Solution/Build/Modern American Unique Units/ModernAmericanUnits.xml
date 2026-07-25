@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by yepzer on 7/25/2026 4:07:05 PM -->
+<GameData>
+
+	<Units>
+		<Delete Type="UNIT_AMERICAN_MINUTEMAN"/>
+		<Delete Type="UNIT_AMERICAN_B17"/>
+		<Delete Type="UNIT_HELICOPTER_GUNSHIP"/>
+		<Delete Type="UNIT_MARINE"/>
+
+		<Row>
+			<Class>UNITCLASS_HELICOPTER_GUNSHIP</Class>
+			<Type>UNIT_MODERNAMERICAN_HELICOPTER</Type>
+			<PrereqTech>TECH_RADAR</PrereqTech>				<!-- updated -->
+			<Combat>75</Combat>								<!-- updated -->
+			<Cost>425</Cost>
+			<Moves>6</Moves>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_HELICOPTER_GUNSHIP</Description>
+			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_HELICOPTERGUNSHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>60</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_HELICOPTER_GUNSHIP</UnitArtInfo>
+			<UnitFlagIconOffset>75</UnitFlagIconOffset>
+			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<PortraitIndex>28</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_MARINE</Class>
+			<Type>UNIT_MODERNAMERICAN_MARINE</Type>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>		<!-- updated -->
+			<Combat>75</Combat>									<!-- updated -->
+			<Cost>400</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_GUN</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_MARINE</Description>
+			<Civilopedia>TXT_KEY_CIV5_MARINE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_MARINE_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HELP_MARINE</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_MARINE</UnitArtInfo>
+			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>19</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION_UNIT_ATLAS_1</IconAtlas>
+			<PortraitIndex>19</PortraitIndex>
+			<ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech>	<!-- updated -->
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MECHANIZED_INFANTRY</GoodyHutUpgradeUnitClass> <!-- updated -->
+		</Row>
+	</Units>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Unit_AITypes>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<UnitAIType>UNITAI_ATTACK</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<UnitAIType>UNITAI_EXPLORE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<UnitAIType>UNITAI_FAST_ATTACK</UnitAIType>
+		</Row>
+	</Unit_AITypes>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Unit_Flavors>
+	
+	<!-- Zolton's Tweaks - Marines to Mechanized Infantry -->
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+			<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	 
+</GameData>
