@@ -7,6 +7,7 @@
     <Description>Update American Unique Units to updated Marines and Helicopter.
 Marines and Helicopters removed for other players.</Description>
     <Authors>yepzer</Authors>
+    <SpecialThanks>WolfDog, Tofusojo, Michael, Doctor Zolton, Spovin, CieYoZa</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
@@ -16,7 +17,7 @@ Marines and Helicopters removed for other players.</Description>
     <SupportsMac>1</SupportsMac>
     <ReloadAudioSystem>0</ReloadAudioSystem>
     <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
-    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
     <ReloadUnitSystem>1</ReloadUnitSystem>
   </Properties>
   <Dependencies>
@@ -26,18 +27,37 @@ Marines and Helicopters removed for other players.</Description>
   <References>
     <Mod id="b6df1726-2496-47bb-9a18-caa25fdc75a7" minversion="5" maxversion="999" title="True Marines Mod" />
     <Mod id="4b263e5e-6369-41f5-89d6-2b43bce74fa9" minversion="0" maxversion="999" title="Zolton's Tweaks - Marines to Mechanized Infantry" />
+    <Mod id="0b409b7c-a0b6-4588-b20a-360031428316" minversion="6" maxversion="999" title="Modern Helicopter" />
+    <Mod id="0cd2c47c-7d92-420d-a57a-60caee72c06d" minversion="1" maxversion="999" title="CieYoZa's America" />
   </References>
   <Blocks />
   <Files>
+    <File md5="CAEA84F4893077C9139AF609833DC178" import="0">CieYoZaAmerica.xml</File>
+    <File md5="47E68D42058D7120B630A55A5E618AE0" import="0">Art/ArtDef.xml</File>
+    <File md5="7050A1DD3ABE16B646D0CF675FA00C54" import="1">Art/IconAtlas128.dds</File>
+    <File md5="A790DDBEAEEA6D918A475522C07EF917" import="1">Art/IconAtlas256.dds</File>
+    <File md5="024D5496EA4369814B78B49875F9B8B2" import="1">Art/IconAtlas45.dds</File>
+    <File md5="9616D652918AB07C023BFA0531166913" import="1">Art/IconAtlas64.dds</File>
+    <File md5="B76946708A25F8F9873F1D671F87483C" import="1">Art/IconAtlas80.dds</File>
+    <File md5="56AE3669C7B094969253EB1CAC48E96A" import="1">Art/IconAtlasFlag.dds</File>
+    <File md5="B81C9E091856D2D85B64D924C1780002" import="0">Art/IconTextureAtlas.xml</File>
+    <File md5="724DD6082E3B52EE66C59874ACFA0FA5" import="1">Art/Model/Tiger_diff(german).dds</File>
+    <File md5="D827BDFE22B39970863A9E49B8D66776" import="1">Art/Model/tiger_germany.fxsxml</File>
+    <File md5="612EF5D9B4469E114594996666942E65" import="1">Art/Model/Tiger_Germany.gr2</File>
+    <File md5="33881021B7D2B83112222067A095F3EA" import="1">Art/Model/Tiger_sref.dds</File>
+    <File md5="35312392FFFDED87F849341B68B6DEFF" import="1">Art/SV_apache.dds</File>
     <File md5="4E92E5E633C0D3BF74E9004D55ED0574" import="0">ModernAmericanCiv.xml</File>
     <File md5="1E36DC43B04B6440FAA86905673A4ABD" import="0">MordernAmericanPromotions.xml</File>
-    <File md5="64AF70D5930E649DD840748E5356FDAD" import="0">ModernAmericanUnits.xml</File>
+    <File md5="7B128955A0C7313FB78762DA1DAF802F" import="0">ModernAmericanUnits.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>ModernAmericanCiv.xml</UpdateDatabase>
       <UpdateDatabase>ModernAmericanUnits.xml</UpdateDatabase>
       <UpdateDatabase>MordernAmericanPromotions.xml</UpdateDatabase>
+      <UpdateDatabase>Art/ArtDef.xml</UpdateDatabase>
+      <UpdateDatabase>Art/IconTextureAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>CieYoZaAmerica.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>

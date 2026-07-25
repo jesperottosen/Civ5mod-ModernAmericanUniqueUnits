@@ -11,7 +11,7 @@
     <Description>Update American Unique Units to updated Marines and Helicopter.
 Marines and Helicopters removed for other players.</Description>
     <Authors>yepzer</Authors>
-    <SpecialThanks>WolfDog, Tofusojo, Michael, Doctor Zolton, Spovin</SpecialThanks>
+    <SpecialThanks>WolfDog, Tofusojo, Michael, Doctor Zolton, Spovin, CieYoZa</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
@@ -40,6 +40,13 @@ Marines and Helicopters removed for other players.</Description>
         <Name>Modern Helicopter</Name>
         <Id>0b409b7c-a0b6-4588-b20a-360031428316</Id>
         <MinVersion>6</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>CieYoZa's America</Name>
+        <Id>0cd2c47c-7d92-420d-a57a-60caee72c06d</Id>
+        <MinVersion>1</MinVersion>
         <MaxVersion>999</MaxVersion>
       </Association>
     </ModReferences>
@@ -76,7 +83,23 @@ Marines and Helicopters removed for other players.</Description>
         <Type>UpdateDatabase</Type>
         <FileName>MordernAmericanPromotions.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Art/ArtDef.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Art/IconTextureAtlas.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>CieYoZaAmerica.xml</FileName>
+      </Action>
     </ModActions>
+    <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -90,6 +113,10 @@ Marines and Helicopters removed for other players.</Description>
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="CieYoZaAmerica.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
     <Content Include="Art\ArtDef.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>

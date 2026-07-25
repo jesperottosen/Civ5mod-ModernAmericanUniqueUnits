@@ -24,15 +24,17 @@
 			<Help>TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>						<!-- updated -->
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<AdvancedStartCost>60</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<UnitArtInfo>ART_DEF_UNIT_HELICOPTER_GUNSHIP</UnitArtInfo>
-			<UnitFlagIconOffset>75</UnitFlagIconOffset>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
-			<PortraitIndex>28</PortraitIndex>
+			<XPValueAttack>5</XPValueAttack>			<!-- updated -->
+			<XPValueDefense>5</XPValueDefense>			<!-- updated -->
+			<UnitArtInfo>ART_DEF_UNIT_APACHE</UnitArtInfo>			<!-- updated -->
+			<UnitFlagAtlas>UNITS_APACHE_FLAG_ATLAS</UnitFlagAtlas>	<!-- updated -->
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>				<!-- updated -->
+			<IconAtlas>UNITS_APACHE_ICON_ATLAS</IconAtlas>			<!-- updated -->
+			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>WHEELED</MoveRate>
 		</Row>
 		<Row>
@@ -51,11 +53,12 @@
 			<Help>TXT_KEY_UNIT_HELP_MARINE</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
+			<Mechanized>true</Mechanized>						<!-- updated -->
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<AdvancedStartCost>40</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
+			<XPValueAttack>5</XPValueAttack>			<!-- updated -->
+			<XPValueDefense>5</XPValueDefense>			<!-- updated -->
 			<UnitArtInfo>ART_DEF_UNIT_MARINE</UnitArtInfo>
 			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>19</UnitFlagIconOffset>
