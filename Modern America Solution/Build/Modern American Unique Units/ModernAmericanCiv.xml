@@ -2,6 +2,16 @@
 <!-- Created by yepzer on 7/25/2026 6:56:37 PM -->
 <GameData>
 
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_AMERICAN_MINUTEMAN"/>
+
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_MARINE</UnitClassType>
+			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
 	<Language_en_US>
 		<Update>
 			<Set Text="Modern US" />

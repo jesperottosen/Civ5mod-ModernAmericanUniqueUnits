@@ -86,7 +86,7 @@
 			<Where Tag="PROMOTION_GAIN_EXPERIENCE" /> 
 		</Update>
 		<Update>
-			<Set Text="Mechanized Infantry are stronger and faster than regular Infantry. Comes with AMPHIBIOUS and EMBARKMENT promotions. (Zolton's Tweaks - Marines to Mechanized Infantry" />
+			<Set Text="Mechanized Infantry are stronger and faster than regular Infantry. Comes with AMPHIBIOUS and EMBARKMENT promotions (Zolton's Tweaks - Marines to Mechanized Infantry)." />
 			<Where Tag="TXT_KEY_UNIT_MECHANIZED_INFANTRY_STRATEGY" />
 		</Update>
 		
