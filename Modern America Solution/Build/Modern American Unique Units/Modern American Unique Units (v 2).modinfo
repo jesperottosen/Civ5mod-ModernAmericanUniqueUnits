@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="083388ec-b35c-4be0-b64a-220650e81f52" version="1">
+<Mod id="083388ec-b35c-4be0-b64a-220650e81f52" version="2">
   <Properties>
     <Name>Modern American Unique Units</Name>
     <Stability>Alpha</Stability>
     <Teaser>Updated Marines and Helicopter.</Teaser>
     <Description>Update American Unique Units to updated Marines and Helicopter.
-Marines and Helicopters removed for other players.</Description>
+Marines and Helicopters removed for other players.
+Updated helicopter model by Spovin,</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>WolfDog, Tofusojo, Michael, Doctor Zolton, Spovin, CieYoZa</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
@@ -32,7 +33,7 @@ Marines and Helicopters removed for other players.</Description>
   </References>
   <Blocks />
   <Files>
-    <File md5="CAEA84F4893077C9139AF609833DC178" import="0">CieYoZaAmerica.xml</File>
+    <File md5="BD11B9E4636D8B6A0810A751847D5829" import="0">CieYoZaAmerica.xml</File>
     <File md5="47E68D42058D7120B630A55A5E618AE0" import="0">Art/ArtDef.xml</File>
     <File md5="7050A1DD3ABE16B646D0CF675FA00C54" import="1">Art/IconAtlas128.dds</File>
     <File md5="A790DDBEAEEA6D918A475522C07EF917" import="1">Art/IconAtlas256.dds</File>
@@ -46,9 +47,9 @@ Marines and Helicopters removed for other players.</Description>
     <File md5="612EF5D9B4469E114594996666942E65" import="1">Art/Model/Tiger_Germany.gr2</File>
     <File md5="33881021B7D2B83112222067A095F3EA" import="1">Art/Model/Tiger_sref.dds</File>
     <File md5="35312392FFFDED87F849341B68B6DEFF" import="1">Art/SV_apache.dds</File>
-    <File md5="4E92E5E633C0D3BF74E9004D55ED0574" import="0">ModernAmericanCiv.xml</File>
-    <File md5="1E36DC43B04B6440FAA86905673A4ABD" import="0">MordernAmericanPromotions.xml</File>
-    <File md5="7B128955A0C7313FB78762DA1DAF802F" import="0">ModernAmericanUnits.xml</File>
+    <File md5="360835EFCD088EF4EA260BBC870E1EA7" import="0">ModernAmericanCiv.xml</File>
+    <File md5="80FD9AFF19B6923A808ED32DF0F90C69" import="0">MordernAmericanPromotions.xml</File>
+    <File md5="BBF117146F9C2562992F6476E3234E47" import="0">ModernAmericanUnits.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

@@ -5,11 +5,12 @@
     <ProjectGuid>{85b38ab1-8d33-41d5-a564-0660598af85f}</ProjectGuid>
     <Name>Modern American Unique Units</Name>
     <Guid>083388ec-b35c-4be0-b64a-220650e81f52</Guid>
-    <ModVersion>1</ModVersion>
+    <ModVersion>2</ModVersion>
     <Stability>Alpha</Stability>
     <Teaser>Updated Marines and Helicopter.</Teaser>
     <Description>Update American Unique Units to updated Marines and Helicopter.
-Marines and Helicopters removed for other players.</Description>
+Marines and Helicopters removed for other players.
+Updated helicopter model by Spovin,</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>WolfDog, Tofusojo, Michael, Doctor Zolton, Spovin, CieYoZa</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>

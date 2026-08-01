@@ -79,5 +79,14 @@
 			<PediaEntry>TXT_KEY_PROMOTION_MARINE</PediaEntry>
 		</Row>
 	</UnitPromotions>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_MARINE_HELP">
+			<Text>4 Extra Movement While Embarked</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARINE">
+			<Text>In The Navy</Text>
+		</Row>
+	</Language_en_US>
   
 </GameData>

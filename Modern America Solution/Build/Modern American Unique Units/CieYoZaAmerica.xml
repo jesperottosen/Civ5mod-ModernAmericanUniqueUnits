@@ -27,23 +27,9 @@
 
 	<Language_en_US>
 		<Update>
-			<Set Text="All military units have +1 sight. 30% discount when purchasing tiles. Great People spawn 10% faster."/>
+			<Set Text="(CieYoZa) All military units have +1 sight. 30% discount when purchasing tiles. Great People spawn 10% faster."/>
 			<Where Tag="TXT_KEY_TRAIT_RIVER_EXPANSION"/>
 		</Update>
 	</Language_en_US>
-
-	<Language_de_DE>
-		<Update>
-			<Set Text="Alle Militäreinheiten haben +1 Sicht. 30% Rabatt beim Kauf von Geländefeldern. Große Persönlichkeiten erscheinen um 10% schneller."/>
-			<Where Tag="TXT_KEY_TRAIT_RIVER_EXPANSION"/>
-		</Update>
-	</Language_de_DE>
-
-	<Language_ru_RU>
-		<Update>
-			<Set Text="Все войска получают +1 к радиусу обзора. Появление великих людей ускоряется на 10%. Также снижается на 30% стоимость покупки клеток."/>
-			<Where Tag="TXT_KEY_TRAIT_RIVER_EXPANSION"/>
-		</Update>
-	</Language_ru_RU>
 
 </GameData>

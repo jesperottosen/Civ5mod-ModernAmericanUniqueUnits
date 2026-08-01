@@ -3,11 +3,9 @@
 <GameData>
 
 	<Units>
-		<Delete Type="UNIT_AMERICAN_MINUTEMAN"/>
-		<Delete Type="UNIT_AMERICAN_B17"/>
-		<Delete Type="UNIT_HELICOPTER_GUNSHIP"/>
-		<Delete Type="UNIT_MARINE"/>
-
+		<Delete Type="UNIT_HELICOPTER_GUNSHIP" />
+		<Delete Type="UNIT_MARINE" />
+		
 		<Row>
 			<Class>UNITCLASS_HELICOPTER_GUNSHIP</Class>
 			<Type>UNIT_MODERNAMERICAN_HELICOPTER</Type>
@@ -18,7 +16,7 @@
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_HELICOPTER_GUNSHIP</Description>
+			<Description>Modern American Helicopter</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_HELICOPTERGUNSHIP_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP</Help>
@@ -47,7 +45,7 @@
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_MARINE</Description>
+			<Description>Modern American Marine</Description>
 			<Civilopedia>TXT_KEY_CIV5_MARINE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MARINE_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_MARINE</Help>
@@ -68,6 +66,19 @@
 			<GoodyHutUpgradeUnitClass>UNITCLASS_MECHANIZED_INFANTRY</GoodyHutUpgradeUnitClass> <!-- updated -->
 		</Row>
 	</Units>
+
+	<UnitClasses>
+		<Update>
+			<Set	DefaultUnit="UNIT_MODERNAMERICAN_HELICOPTER"
+					Description="Modern American Helicopter" />
+			<Where Type="UNITCLASS_HELICOPTER_GUNSHIP"/>
+		</Update>
+		<Update>
+			<Set	DefaultUnit="UNIT_MODERNAMERICAN_MARINE"
+					Description="Modern American Marine" />
+			<Where Type="UNITCLASS_MARINE"/>
+		</Update>
+	</UnitClasses>
 
 	<Unit_ResourceQuantityRequirements>
 		<Row>
