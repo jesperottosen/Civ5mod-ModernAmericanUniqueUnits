@@ -67,11 +67,12 @@
 		</Row>
 	</Units>
 
+<!-- 
 	<UnitClasses>
 		<Update>
 			<Set	DefaultUnit="UNIT_MODERNAMERICAN_HELICOPTER"
 					Description="Modern American Helicopter" />
-			<Where Type="UNITCLASS_HELICOPTER_GUNSHIP"/>
+			<Where Type="UNITCLASS_HELICOPTER_GUNSHIP" />
 		</Update>
 		<Update>
 			<Set	DefaultUnit="UNIT_MODERNAMERICAN_MARINE"
@@ -79,7 +80,8 @@
 			<Where Type="UNITCLASS_MARINE"/>
 		</Update>
 	</UnitClasses>
-
+-->
+	
 	<Unit_ResourceQuantityRequirements>
 		<Row>
 			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
@@ -141,5 +143,33 @@
 			<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
-	 
+
+	<Language_en_US>
+		<Update>
+			<Set Text="The Helicopter Gunship is a deadly air unit that in most respects acts like any ground unit, except that it cannot capture cities. Its movement of 6 makes it extremely quick, and it can move over all terrain types including mountains as if they were clear, but it must embark to cross water. (MAUU)" />
+			<Where Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY" />
+		</Update>
+		<Update>
+			<Set Text="Helicopters saw limited use as transport vehicles in World War II and the Korean war. During the Vietnam war the US Army decided to create a more heavily armed and armored chopper designed specifically for combat. Since that period, the helicopter gunship has evolved primarily into a tank-killing machine. (MAUU)" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_UNITS_MODERN_HELICOPTERGUNSHIP_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Modern American Unique Unit specialized in fighting Modern Armor and Tanks. It is capable of hovering over mountains. (MAUU)" />
+			<Where Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP" />
+		</Update>
+
+		<Update>
+			<Set Text="The Marine is a Modern American Unique Unit. Comes with AMPHIBIOUS and EMBARKMENT promotions. (MAUU)" />
+			<Where Tag="TXT_KEY_UNIT_MARINE_STRATEGY" />
+		</Update>
+		<Update>
+			<Set Text="Originally intended to serve as a class of infantry specializing in amphibious assaults, the stalwart marines have since grown to serve in a number of important roles within the military (MAUU). Upgrades to Mechanized Infantry (Zolton's Tweaks)" />
+			<Where Tag="TXT_KEY_CIV5_MARINE_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Modern American Unique Unit especially useful for embarking and invading across the sea. (MAUU)" />
+			<Where Tag="TXT_KEY_UNIT_HELP_MARINE" />
+		</Update>
+	</Language_en_US>
+	
 </GameData>

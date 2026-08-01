@@ -47,9 +47,9 @@ Updated helicopter model by Spovin,</Description>
     <File md5="612EF5D9B4469E114594996666942E65" import="1">Art/Model/Tiger_Germany.gr2</File>
     <File md5="33881021B7D2B83112222067A095F3EA" import="1">Art/Model/Tiger_sref.dds</File>
     <File md5="35312392FFFDED87F849341B68B6DEFF" import="1">Art/SV_apache.dds</File>
-    <File md5="360835EFCD088EF4EA260BBC870E1EA7" import="0">ModernAmericanCiv.xml</File>
-    <File md5="80FD9AFF19B6923A808ED32DF0F90C69" import="0">MordernAmericanPromotions.xml</File>
-    <File md5="BBF117146F9C2562992F6476E3234E47" import="0">ModernAmericanUnits.xml</File>
+    <File md5="2EFD7FBB1FD48D4B5851DAFD1650167E" import="0">ModernAmericanCiv.xml</File>
+    <File md5="DC2B6A351B4DA27FC0CE615C385F9513" import="0">MordernAmericanPromotions.xml</File>
+    <File md5="003B5A15E8B11FF25690778F95460578" import="0">ModernAmericanUnits.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

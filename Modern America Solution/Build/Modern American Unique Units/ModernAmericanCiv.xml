@@ -4,7 +4,7 @@
 
 	<Language_en_US>
 		<Update>
-			<Set Text="Moern US" />
+			<Set Text="Modern US" />
 			<Where Tag="TXT_KEY_CIV_AMERICA_ADJECTIVE" />
 		</Update>
 		<Update>
@@ -12,7 +12,7 @@
 			<Where Tag="TXT_KEY_CIV_AMERICA_DESC" />
 		</Update>
 		<Update>
-			<Set Text="US" />
+			<Set Text="Modern US" />
 			<Where Tag="TXT_KEY_CIV_AMERICA_SHORT_DESC" />
 		</Update>		
 	</Language_en_US>
