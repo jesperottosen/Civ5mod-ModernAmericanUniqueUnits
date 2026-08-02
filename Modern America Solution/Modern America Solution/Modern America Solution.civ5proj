@@ -8,9 +8,12 @@
     <ModVersion>2</ModVersion>
     <Stability>Alpha</Stability>
     <Teaser>Updated Marines and Helicopter.</Teaser>
-    <Description>Update American Unique Units to updated Marines and Helicopter.
-Marines and Helicopters removed for other players.
-Updated helicopter model by Spovin,</Description>
+    <Description>American Unique Units changed to updated/upgraded Marines and Apache Helicopter. No Minuteman or B17. Marines and Helicopters removed for other players. 
+[NEWLINE]
+[NEWLINE]
+America renamed "Modern America"/"Modern US" leader treat is updated to +1 sigth, 50% discount on tiles and faster great people spawn.
+[NEWLINE]
+[NEWLINE]Updated helicopter model by Spovin.</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>WolfDog, Tofusojo, Michael, Doctor Zolton, Spovin, CieYoZa</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -101,6 +104,7 @@ Updated helicopter model by Spovin,</Description>
       </Action>
     </ModActions>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
+    <Homepage>http://https://github.com/jesperottosen/Civ5mod-ModernAmericanUniqueUnits</Homepage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

@@ -2,7 +2,7 @@
 
 	<Traits>
 		<Update>
-			<Set GreatPeopleRateModifier="10" PlotBuyCostModifier="30"/>
+			<Set GreatPeopleRateModifier="25" PlotBuyCostModifier="50"/> <!-- updated -->
 			<Where Type="TRAIT_RIVER_EXPANSION"/>
 		</Update>
 	</Traits>
@@ -13,6 +13,16 @@
 			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
 			<PromotionType>PROMOTION_SENTRY</PromotionType>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>	
 		<Row>
 			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
 			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
@@ -27,7 +37,11 @@
 
 	<Language_en_US>
 		<Update>
-			<Set Text="(CieYoZa) All military units have +1 sight. 30% discount when purchasing tiles. Great People spawn 10% faster."/>
+			<Set Text="River expansion"/>
+			<Where Tag="TXT_KEY_TRAIT_RIVER_EXPANSION_SHORT"/>
+		</Update>	
+		<Update>
+			<Set Text="All military units have +1 sight. 50% discount when purchasing tiles. Great People spawn 25% faster (CieYoZa,MAUU)."/>
 			<Where Tag="TXT_KEY_TRAIT_RIVER_EXPANSION"/>
 		</Update>
 	</Language_en_US>

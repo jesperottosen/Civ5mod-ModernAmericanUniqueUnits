@@ -4,12 +4,19 @@
 
 	<Civilization_UnitClassOverrides>
 		<Delete UnitType="UNIT_AMERICAN_MINUTEMAN"/>
-
+		<Delete UnitType="UNIT_AMERICAN_B17"/>
+		
 		<Row>
 			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
 			<UnitClassType>UNITCLASS_MARINE</UnitClassType>
 			<UnitType>UNIT_MODERNAMERICAN_MARINE</UnitType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_HELICOPTER_GUNSHIP</UnitClassType>
+			<UnitType>UNIT_MODERNAMERICAN_HELICOPTER</UnitType>
+		</Row>
+
 	</Civilization_UnitClassOverrides>
 
 	<Language_en_US>

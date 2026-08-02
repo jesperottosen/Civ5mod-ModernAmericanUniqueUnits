@@ -6,6 +6,7 @@
 		<Delete Type="UNIT_HELICOPTER_GUNSHIP" />
 		<Delete Type="UNIT_MARINE" />
 		<Delete Type="UNIT_AMERICAN_MINUTEMAN"/>
+		<Delete Type="UNIT_AMERICAN_B17"/>
 		
 		<Row>
 			<Class>UNITCLASS_HELICOPTER_GUNSHIP</Class>
