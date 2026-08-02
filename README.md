@@ -12,5 +12,5 @@ Updated helicopter model by Spovin.
 
 
 
-!\[mauu](https://github.com/jesperottosen/Civ5mod-ModernAmericanUniqueUnits/blob/main/mauu.jpg?raw=true)
+![mauu](https://github.com/jesperottosen/Civ5mod-ModernAmericanUniqueUnits/blob/main/mauu.jpg?raw=true)
 
