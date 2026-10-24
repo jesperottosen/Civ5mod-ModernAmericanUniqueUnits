@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="083388ec-b35c-4be0-b64a-220650e81f52" version="2">
+<Mod id="083388ec-b35c-4be0-b64a-220650e81f52" version="3">
   <Properties>
     <Name>Modern American Unique Units</Name>
     <Stability>Alpha</Stability>
@@ -53,7 +53,7 @@ America renamed "Modern America"/"Modern US" leader treat is updated to +1 sigth
     <File md5="35312392FFFDED87F849341B68B6DEFF" import="1">Art/SV_apache.dds</File>
     <File md5="08066E239F05A74DDF20292C09C44546" import="0">ModernAmericanCiv.xml</File>
     <File md5="FB4479160EB8238BEF3B518BD0889EE7" import="0">MordernAmericanPromotions.xml</File>
-    <File md5="1EF3C8EDEDA61AD4885C0CCB1B2CD2A1" import="0">ModernAmericanUnits.xml</File>
+    <File md5="D95293D869ED1722C7BDB4C4CF2173B7" import="0">ModernAmericanUnits.xml</File>
   </Files>
   <Actions>
     <OnModActivated>

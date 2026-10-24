@@ -12,8 +12,8 @@
 			<Class>UNITCLASS_HELICOPTER_GUNSHIP</Class>
 			<Type>UNIT_MODERNAMERICAN_HELICOPTER</Type>
 			<PrereqTech>TECH_RADAR</PrereqTech>				<!-- updated -->
-			<Combat>75</Combat>								<!-- updated -->
-			<Cost>425</Cost>
+			<Combat>100</Combat>								<!-- updated -->
+			<Cost>400</Cost>
 			<Moves>6</Moves>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -28,8 +28,8 @@
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<AdvancedStartCost>60</AdvancedStartCost>
-			<XPValueAttack>5</XPValueAttack>			<!-- updated -->
-			<XPValueDefense>5</XPValueDefense>			<!-- updated -->
+			<XPValueAttack>6</XPValueAttack>			<!-- updated -->
+			<XPValueDefense>6</XPValueDefense>			<!-- updated -->
 			<UnitArtInfo>ART_DEF_UNIT_APACHE</UnitArtInfo>			<!-- updated -->
 			<UnitFlagAtlas>UNITS_APACHE_FLAG_ATLAS</UnitFlagAtlas>	<!-- updated -->
 			<UnitFlagIconOffset>0</UnitFlagIconOffset>				<!-- updated -->
@@ -41,7 +41,7 @@
 			<Class>UNITCLASS_MARINE</Class>
 			<Type>UNIT_MODERNAMERICAN_MARINE</Type>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>		<!-- updated -->
-			<Combat>75</Combat>									<!-- updated -->
+			<Combat>100</Combat>									<!-- updated -->
 			<Cost>400</Cost>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
@@ -57,8 +57,8 @@
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<AdvancedStartCost>40</AdvancedStartCost>
-			<XPValueAttack>5</XPValueAttack>			<!-- updated -->
-			<XPValueDefense>5</XPValueDefense>			<!-- updated -->
+			<XPValueAttack>6</XPValueAttack>			<!-- updated -->
+			<XPValueDefense>6</XPValueDefense>			<!-- updated -->
 			<UnitArtInfo>ART_DEF_UNIT_MARINE</UnitArtInfo>
 			<UnitFlagAtlas>EXPANSION_UNIT_FLAG_ATLAS</UnitFlagAtlas>
 			<UnitFlagIconOffset>19</UnitFlagIconOffset>
