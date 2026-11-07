@@ -1,12 +1,9 @@
 # Civ5mod-ModernAmerica
 
-American Unique Units changed to updated/upgraded Marines and Apache Helicopter. No Minuteman or B17. Marines and Helicopters removed for other players.
+American leader replaced with General Douglas MacArthur.
 
-
-
-America renamed "Modern America"/"Modern US" leader treat is updated to +1 sigth, 50% discount on tiles and faster great people spawn.
-
-
+American Unique Units changed to updated/upgraded Marines and Black Hawk Helicopter. No Minuteman or B17. Marines and Helicopters removed for other players.
+America renamed "US"/"Modern US" leader treat is updated to +1 sigth, 50% discount on tiles and faster great people spawn.
 
 Updated helicopter model by Spovin.
 

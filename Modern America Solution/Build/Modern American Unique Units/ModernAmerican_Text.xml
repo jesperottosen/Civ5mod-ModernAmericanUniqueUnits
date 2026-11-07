@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/7/2026 2:20:12 PM -->
+<GameData>
+	<Language_en_US>
+		<!--  Leader Civilopedia  -->
+		<Row Tag="TXT_KEY_LEADER_MACARTHUR_DESC">
+			<Text>General MacArthur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MACARTHUR_PEDIA">
+			<Text>MacArthur has been portrayed as a reactionary, although he was in many respects ahead of his time</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_MACARTHUR">
+			<Text>General MacArthur has returned.[NEWLINE][NEWLINE]On 20 October 1944, troops of Krueger's Sixth Army landed on Leyte, while MacArthur watched from the light cruiser USS Nashville. That afternoon he arrived on the beach. The advance had not progressed far; snipers were still active and the area was under sporadic mortar fire. When his boat grounded in knee-deep water, MacArthur requested a landing craft, but the beachmaster was too busy to grant his request, and he was compelled to wade ashore.[NEWLINE]In his prepared speech, he said: People of the Philippines:  By the grace of Almighty God our forces stand again on Philippine soil—soil consecrated in the blood of our two peoples. We have come dedicated and committed to the task of destroying every vestige of enemy control over your daily lives, and of restoring upon a foundation of indestructible strength, the liberties of your people.</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_LEADER_MACARTHUR_LIVED">
+			<Text>1880 – 1964</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MACARTHUR_NAME">
+			<Text>Douglas MacArthur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MACARTHUR_SUBTITLE">
+			<Text>Supreme Commander, Southwest Pacific Area</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MACARTHUR_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_MACARTHUR_TEXT_1">
+			<Text>MacArthur was recalled to active duty in 1941 as commander of U.S. Army Forces in the Far East. In March 1942, MacArthur escaped to Australia. He promised that he would return to the Philippines, and for his defense of the islands was awarded the Medal of Honor. From Australia, he commanded the New Guinea campaign, and in October 1944 led the campaign which liberated the Philippines. In December 1944, he was promoted to General of the Army.[NEWLINE]
+				At the end of the war, MacArthur accepted the surrender of Japan. As the Supreme Commander for the Allied Powers and effective ruler of Japan, he oversaw the war crimes tribunals and the demilitarization and democratization of the country. During the Korean War, he led the United Nations Command with initial success, but suffered major defeats after China's entry into the war in October 1950. MacArthur was contentiously removed from his command in Korea by President Harry S. Truman in April 1951
+			</Text>
+		</Row>
+		
+		<!-- TXT_KEY_CIV_AMERICA -->
+		<Update>
+			<Set Text="US" />
+			<Where Tag="TXT_KEY_CIV_AMERICA_ADJECTIVE" />
+		</Update>
+		<Update>
+			<Set Text="Modern America" />
+			<Where Tag="TXT_KEY_CIV_AMERICA_DESC" />
+		</Update>
+		<Update>
+			<Set Text="Modern US" />
+			<Where Tag="TXT_KEY_CIV_AMERICA_SHORT_DESC" />
+		</Update>
+		
+		<!-- TXT_KEY_UNIT_HELICOPTER_GUNSHIP -->
+		<Update>
+			<Set Text="The Helicopter Gunship is a deadly air unit that in most respects acts like any ground unit, except that it cannot capture cities. Its movement of 6 makes it extremely quick, and it can move over all terrain types including mountains as if they were clear, but it must embark to cross water. (MAUU)" />
+			<Where Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY" />
+		</Update>
+		<Update>
+			<Set Text="Helicopters saw limited use as transport vehicles in World War II and the Korean war. During the Vietnam war the US Army decided to create a more heavily armed and armored chopper designed specifically for combat. Since that period, the helicopter gunship has evolved primarily into a tank-killing machine. (MAUU)" />
+			<Where Tag="TXT_KEY_CIVILOPEDIA_UNITS_MODERN_HELICOPTERGUNSHIP_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Modern American Unique Unit specialized in fighting Modern Armor and Tanks. It is capable of hovering over mountains. (MAUU)" />
+			<Where Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP" />
+		</Update>
+
+		<!-- TXT_KEY_UNIT_MARINE -->
+		<Update>
+			<Set Text="The Marine is a Modern American Unique Unit. Comes with AMPHIBIOUS and EMBARKMENT promotions. (MAUU)" />
+			<Where Tag="TXT_KEY_UNIT_MARINE_STRATEGY" />
+		</Update>
+		<Update>
+			<Set Text="Originally intended to serve as a class of infantry specializing in amphibious assaults, the stalwart marines have since grown to serve in a number of important roles within the military (MAUU). Upgrades to Mechanized Infantry (Zolton's Tweaks)" />
+			<Where Tag="TXT_KEY_CIV5_MARINE_TEXT" />
+		</Update>
+		<Update>
+			<Set Text="Modern American Unique Unit especially useful for embarking and invading across the sea. (MAUU)" />
+			<Where Tag="TXT_KEY_UNIT_HELP_MARINE" />
+		</Update>
+	</Language_en_US>
+  
+</GameData>

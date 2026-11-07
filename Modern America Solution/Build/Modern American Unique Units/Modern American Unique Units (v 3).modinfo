@@ -3,17 +3,16 @@
   <Properties>
     <Name>Modern American Unique Units</Name>
     <Stability>Alpha</Stability>
-    <Teaser>Updated Marines and Helicopter.</Teaser>
-    <Description>American Unique Units changed to updated/upgraded Marines and Apache Helicopter. No Minuteman or B17. Marines and Helicopters removed for other players. 
-[NEWLINE]
-[NEWLINE]
-America renamed "Modern America"/"Modern US" leader treat is updated to +1 sigth, 50% discount on tiles and faster great people spawn.
+    <Teaser>Lead by General MacArthur with updated Marines and black hawk.</Teaser>
+    <Description>American leader replaced with General Douglas MacArthur[NEWLINE]
+[NEWLINE]American Unique Units changed to updated/upgraded Marines and Black Hawk Helicopter. No Minuteman or B17. Marines and Helicopters removed for other players.
+[NEWLINE]America renamed "US"/"Modern US" leader treat is updated to +1 sigth, 50% discount on tiles and faster great people spawn.
 [NEWLINE]
 [NEWLINE]Updated helicopter model by Spovin.</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>WolfDog, Tofusojo, Michael, Doctor Zolton, Spovin, CieYoZa</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
-    <Homepage>http://https://github.com/jesperottosen/Civ5mod-ModernAmericanUniqueUnits</Homepage>
+    <Homepage>https://github.com/jesperottosen/Civ5mod-ModernAmericanUniqueUnits</Homepage>
     <AffectsSavedGames>1</AffectsSavedGames>
     <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
     <SupportsSinglePlayer>1</SupportsSinglePlayer>
@@ -37,6 +36,8 @@ America renamed "Modern America"/"Modern US" leader treat is updated to +1 sigth
   </References>
   <Blocks />
   <Files>
+    <File md5="B382AEC414178F42F62A26B0E0836A24" import="1">Art/macarthur.dds</File>
+    <File md5="3C4455D793155DDEA6C403FD2433DF1B" import="1">Art/pacmap.dds</File>
     <File md5="6CCA2EFFB05D9677E07C8640491AFE13" import="0">CieYoZaAmerica.xml</File>
     <File md5="47E68D42058D7120B630A55A5E618AE0" import="0">Art/ArtDef.xml</File>
     <File md5="7050A1DD3ABE16B646D0CF675FA00C54" import="1">Art/IconAtlas128.dds</File>
@@ -51,17 +52,23 @@ America renamed "Modern America"/"Modern US" leader treat is updated to +1 sigth
     <File md5="612EF5D9B4469E114594996666942E65" import="1">Art/Model/Tiger_Germany.gr2</File>
     <File md5="33881021B7D2B83112222067A095F3EA" import="1">Art/Model/Tiger_sref.dds</File>
     <File md5="35312392FFFDED87F849341B68B6DEFF" import="1">Art/SV_apache.dds</File>
-    <File md5="08066E239F05A74DDF20292C09C44546" import="0">ModernAmericanCiv.xml</File>
-    <File md5="FB4479160EB8238BEF3B518BD0889EE7" import="0">MordernAmericanPromotions.xml</File>
-    <File md5="D95293D869ED1722C7BDB4C4CF2173B7" import="0">ModernAmericanUnits.xml</File>
+    <File md5="32A68DE91C5BC7898C5AA50C1204D55F" import="0">ModernAmerican_Text.xml</File>
+    <File md5="3853A327016650E8D8066B24B1C45D78" import="0">ModernAmerican_Leader.xml</File>
+    <File md5="ECBA298D0942CE64757C27908D222723" import="0">ModernAmerican_Civ.xml</File>
+    <File md5="FB4479160EB8238BEF3B518BD0889EE7" import="0">ModernAmerican_Promotions.xml</File>
+    <File md5="65DB533E5528D26FB37A6914DDBDA7DF" import="0">ModernAmerican_Units.xml</File>
+    <File md5="D9AE0C6D5B5AAFAA4FC191B5DF8888ED" import="0">ModernAmerican_Leaderhead.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
-      <UpdateDatabase>ModernAmericanCiv.xml</UpdateDatabase>
-      <UpdateDatabase>ModernAmericanUnits.xml</UpdateDatabase>
-      <UpdateDatabase>MordernAmericanPromotions.xml</UpdateDatabase>
       <UpdateDatabase>Art/ArtDef.xml</UpdateDatabase>
       <UpdateDatabase>Art/IconTextureAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmerican_Civ.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmerican_Units.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmerican_Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmerican_Leader.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmerican_Leaderhead.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmerican_Text.xml</UpdateDatabase>
       <UpdateDatabase>CieYoZaAmerica.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
