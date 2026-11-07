@@ -3,16 +3,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <ProjectGuid>{85b38ab1-8d33-41d5-a564-0660598af85f}</ProjectGuid>
-    <Name>Modern American Unique Units</Name>
+    <Name>Modern America [ICON_CAPITAL]</Name>
     <Guid>083388ec-b35c-4be0-b64a-220650e81f52</Guid>
     <ModVersion>3</ModVersion>
-    <Stability>Alpha</Stability>
+    <Stability>Stable</Stability>
     <Teaser>Lead by General MacArthur with updated Marines and black hawk.</Teaser>
-    <Description>American leader replaced with General Douglas MacArthur[NEWLINE]
+    <Description>American leader replaced with General Douglas MacArthur[ICON_CAPITAL][NEWLINE]
 [NEWLINE]American Unique Units changed to updated/upgraded Marines and Black Hawk Helicopter. No Minuteman or B17. Marines and Helicopters removed for other players.
 [NEWLINE]America renamed "US"/"Modern US" leader treat is updated to +1 sigth, 50% discount on tiles and faster great people spawn.
 [NEWLINE]
-[NEWLINE]Updated helicopter model by Spovin.</Description>
+[NEWLINE]Updated helicopter model by Spovin.
+[NEWLINE]Icon tools by https://civmoddingcentral.dev</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>WolfDog, Tofusojo, Michael, Doctor Zolton, Spovin, CieYoZa</SpecialThanks>
     <AffectsSavedGames>true</AffectsSavedGames>
@@ -84,17 +85,12 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
+        <FileName>ModernAmerican_Atlas.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
         <FileName>ModernAmerican_Civ.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>ModernAmerican_Units.xml</FileName>
-      </Action>
-      <Action>
-        <Set>OnModActivated</Set>
-        <Type>UpdateDatabase</Type>
-        <FileName>ModernAmerican_Promotions.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -105,6 +101,16 @@
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
         <FileName>ModernAmerican_Leaderhead.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>ModernAmerican_Promotions.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>ModernAmerican_Units.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
@@ -132,11 +138,39 @@
     <DeployMod>true</DeployMod>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Art\macarthur.dds">
+    <Content Include="Art\Leader\macarthur.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="Art\pacmap.dds">
+    <Content Include="Art\Leader\Macarthur_IconAtlas_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leader\Macarthur_IconAtlas_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leader\Macarthur_IconAtlas_32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leader\Macarthur_IconAtlas_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leader\Macarthur_IconAtlas_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leader\Macarthur_IconAtlas_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leader\macarthur_leaderhead.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leader\pacmap.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -220,10 +254,15 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
+    <Content Include="ModernAmerican_Atlas.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Art" />
     <Folder Include="Art\Model" />
+    <Folder Include="Art\Leader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
 </Project>

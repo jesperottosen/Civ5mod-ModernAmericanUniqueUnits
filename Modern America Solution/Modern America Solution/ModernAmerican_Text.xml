@@ -4,7 +4,7 @@
 	<Language_en_US>
 		<!--  Leader Civilopedia  -->
 		<Row Tag="TXT_KEY_LEADER_MACARTHUR_DESC">
-			<Text>General MacArthur</Text>
+			<Text>General MacArthur [ICON_CAPITAL]</Text>
 		</Row>
 		<Row Tag="TXT_KEY_LEADER_MACARTHUR_PEDIA">
 			<Text>MacArthur has been portrayed as a reactionary, although he was in many respects ahead of his time</Text>

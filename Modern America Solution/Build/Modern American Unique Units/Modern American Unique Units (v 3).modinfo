@@ -8,7 +8,8 @@
 [NEWLINE]American Unique Units changed to updated/upgraded Marines and Black Hawk Helicopter. No Minuteman or B17. Marines and Helicopters removed for other players.
 [NEWLINE]America renamed "US"/"Modern US" leader treat is updated to +1 sigth, 50% discount on tiles and faster great people spawn.
 [NEWLINE]
-[NEWLINE]Updated helicopter model by Spovin.</Description>
+[NEWLINE]Updated helicopter model by Spovin.
+[NEWLINE]Icon tools by https://civmoddingcentral.dev</Description>
     <Authors>yepzer</Authors>
     <SpecialThanks>WolfDog, Tofusojo, Michael, Doctor Zolton, Spovin, CieYoZa</SpecialThanks>
     <HideSetupGame>0</HideSetupGame>
@@ -36,8 +37,15 @@
   </References>
   <Blocks />
   <Files>
-    <File md5="B382AEC414178F42F62A26B0E0836A24" import="1">Art/macarthur.dds</File>
-    <File md5="3C4455D793155DDEA6C403FD2433DF1B" import="1">Art/pacmap.dds</File>
+    <File md5="2BD8574524E6968A4D9195788E26C973" import="1">Art/Leader/macarthur.dds</File>
+    <File md5="D7462C9073DF9C70F36547F46318E31C" import="1">Art/Leader/Macarthur_IconAtlas_128.dds</File>
+    <File md5="252B17130621E9134067206D19C8D3AC" import="1">Art/Leader/Macarthur_IconAtlas_256.dds</File>
+    <File md5="88AE3636F04FED441EE01D63ACE5AF59" import="1">Art/Leader/Macarthur_IconAtlas_32.dds</File>
+    <File md5="FCDA142FC2C867D5CBA7F81EF9E349A7" import="1">Art/Leader/Macarthur_IconAtlas_45.dds</File>
+    <File md5="07DA552400225EB887BB75E58754044D" import="1">Art/Leader/Macarthur_IconAtlas_64.dds</File>
+    <File md5="E63E0A3EF0788D70B9D70CF28A91B977" import="1">Art/Leader/Macarthur_IconAtlas_80.dds</File>
+    <File md5="49D324743463B2B2614B80A179C80A8E" import="1">Art/Leader/macarthur_leaderhead.dds</File>
+    <File md5="3C4455D793155DDEA6C403FD2433DF1B" import="1">Art/Leader/pacmap.dds</File>
     <File md5="6CCA2EFFB05D9677E07C8640491AFE13" import="0">CieYoZaAmerica.xml</File>
     <File md5="47E68D42058D7120B630A55A5E618AE0" import="0">Art/ArtDef.xml</File>
     <File md5="7050A1DD3ABE16B646D0CF675FA00C54" import="1">Art/IconAtlas128.dds</File>
@@ -53,21 +61,23 @@
     <File md5="33881021B7D2B83112222067A095F3EA" import="1">Art/Model/Tiger_sref.dds</File>
     <File md5="35312392FFFDED87F849341B68B6DEFF" import="1">Art/SV_apache.dds</File>
     <File md5="32A68DE91C5BC7898C5AA50C1204D55F" import="0">ModernAmerican_Text.xml</File>
-    <File md5="3853A327016650E8D8066B24B1C45D78" import="0">ModernAmerican_Leader.xml</File>
+    <File md5="12F39CD1C881C0979DE8B9079C7711C4" import="0">ModernAmerican_Leader.xml</File>
     <File md5="ECBA298D0942CE64757C27908D222723" import="0">ModernAmerican_Civ.xml</File>
     <File md5="FB4479160EB8238BEF3B518BD0889EE7" import="0">ModernAmerican_Promotions.xml</File>
     <File md5="65DB533E5528D26FB37A6914DDBDA7DF" import="0">ModernAmerican_Units.xml</File>
     <File md5="D9AE0C6D5B5AAFAA4FC191B5DF8888ED" import="0">ModernAmerican_Leaderhead.xml</File>
+    <File md5="DDA52FA942AC2F76ECC903EEDEBC6476" import="0">ModernAmerican_Atlas.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>Art/ArtDef.xml</UpdateDatabase>
       <UpdateDatabase>Art/IconTextureAtlas.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmerican_Atlas.xml</UpdateDatabase>
       <UpdateDatabase>ModernAmerican_Civ.xml</UpdateDatabase>
-      <UpdateDatabase>ModernAmerican_Units.xml</UpdateDatabase>
-      <UpdateDatabase>ModernAmerican_Promotions.xml</UpdateDatabase>
       <UpdateDatabase>ModernAmerican_Leader.xml</UpdateDatabase>
       <UpdateDatabase>ModernAmerican_Leaderhead.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmerican_Promotions.xml</UpdateDatabase>
+      <UpdateDatabase>ModernAmerican_Units.xml</UpdateDatabase>
       <UpdateDatabase>ModernAmerican_Text.xml</UpdateDatabase>
       <UpdateDatabase>CieYoZaAmerica.xml</UpdateDatabase>
     </OnModActivated>
