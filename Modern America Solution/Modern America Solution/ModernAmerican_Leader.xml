@@ -9,7 +9,7 @@
 			<Description>TXT_KEY_LEADER_MACARTHUR_DESC</Description>
 			<Civilopedia>TXT_KEY_LEADER_WILLWALLACE_PEDIA</Civilopedia>
 			<CivilopediaTag>TXT_KEY_LEADER_MACARTHUR</CivilopediaTag>
-			<ArtDefineTag>ModernAmerican_Leaderhead.xml</ArtDefineTag>
+			<ArtDefineTag>SWD_Leaderhead.xml</ArtDefineTag>
 			<VictoryCompetitiveness>4</VictoryCompetitiveness>
 			<WonderCompetitiveness>3</WonderCompetitiveness>
 			<MinorCivCompetitiveness>5</MinorCivCompetitiveness>

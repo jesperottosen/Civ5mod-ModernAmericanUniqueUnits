@@ -122,6 +122,11 @@
         <Type>UpdateDatabase</Type>
         <FileName>CieYoZaAmerica.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Art/SWD_Leaderhead.xml</FileName>
+      </Action>
     </ModActions>
     <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
     <Homepage>https://github.com/jesperottosen/Civ5mod-ModernAmericanUniqueUnits</Homepage>
@@ -171,6 +176,14 @@
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="Art\Leader\pacmap.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leader\SWD_leaderhead_WillWallace.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\SWD_Leaderhead.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -252,7 +265,7 @@
     </Content>
     <Content Include="ModernAmerican_Leaderhead.xml">
       <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
+      <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
     <Content Include="ModernAmerican_Atlas.xml">
       <SubType>Lua</SubType>
