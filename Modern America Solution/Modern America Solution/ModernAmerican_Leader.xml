@@ -236,12 +236,21 @@
 			<Flavor>6</Flavor>
 		</Row>
 	</Leader_Flavors>
+	
 	<Leader_Traits>
 		<Row>
 			<LeaderType>LEADER_MACARTHUR</LeaderType>
 			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
 		</Row>
 	</Leader_Traits>
+
+	<Traits>
+		<Update>
+			<Set GreatPeopleRateModifier="75" PlotBuyCostModifier="-50" GreatGeneralRateModifier="75" />
+			<!-- updated -->
+			<Where Type="TRAIT_RIVER_EXPANSION"/>
+		</Update>
+	</Traits>
 	
 	
 </GameData>

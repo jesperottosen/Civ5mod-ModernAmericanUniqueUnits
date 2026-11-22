@@ -43,6 +43,16 @@
 			<Set Text="Modern US" />
 			<Where Tag="TXT_KEY_CIV_AMERICA_SHORT_DESC" />
 		</Update>
+
+		<!-- Trait -->
+		<Update>
+			<Set Text="River expansion"/>
+			<Where Tag="TXT_KEY_TRAIT_RIVER_EXPANSION_SHORT"/>
+		</Update>
+		<Update>
+			<Set Text="All military units have +1 sight. 50% discount when purchasing tiles. Great People spawn faster (CieYoZa,MAUU)."/>
+			<Where Tag="TXT_KEY_TRAIT_RIVER_EXPANSION"/>
+		</Update>
 		
 		<!-- TXT_KEY_UNIT_HELICOPTER_GUNSHIP -->
 		<Update>
