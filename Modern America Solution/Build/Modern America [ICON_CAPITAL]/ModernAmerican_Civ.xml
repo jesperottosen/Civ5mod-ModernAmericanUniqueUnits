@@ -21,8 +21,8 @@
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
 			<DawnOfManQuote>TXT_KEY_CIV5_DAWN_MACARTHUR</DawnOfManQuote>	<!-- updated -->
-			<DawnOfManImage>macarthur.dds</DawnOfManImage>				<!-- updated -->
-			<DawnOfManAudio>AS2D_DOM_SPEECH_UNITED_STATES</DawnOfManAudio>
+			<DawnOfManImage>macarthur.dds</DawnOfManImage>					<!-- updated -->
+			<DawnOfManAudio>AS2D_DOM_SPEECH_MACARTHUR</DawnOfManAudio><!-- updated -->
 		</Row>
 	</Civilizations>
 

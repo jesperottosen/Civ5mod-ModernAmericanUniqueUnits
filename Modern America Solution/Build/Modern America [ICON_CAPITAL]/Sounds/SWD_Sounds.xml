@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Leugi and Pouakai (Mostly Leugi, I just want to feel like I accomplished something)-->
+<!-- modified by yepzer -->
+<GameData>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_MACARTHUR_PEACE</SoundID>
+			<Filename>MacArthur</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_LEADER_MUSIC_MACARTHUR_WAR</SoundID>
+			<Filename>MacArthur</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+		<Row>
+			<SoundID>SND_DOM_SPEECH_MACARTHUR</SoundID>
+			<Filename>MacArthur</Filename>
+			<LoadType>DYNAMIC_RES</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_MACARTHUR_PEACE</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_MACARTHUR_PEACE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>50</MinVolume>
+			<MaxVolume>50</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_LEADER_MUSIC_MACARTHUR_WAR</ScriptID>
+			<SoundID>SND_LEADER_MUSIC_MACARTHUR_WAR</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<MinVolume>50</MinVolume>
+			<MaxVolume>50</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_AMBIENCE_LEADER_MACARTHUR_AMBIENCE</ScriptID>
+			<SoundID>SND_AMBIENCE_MACARTHUR_AMBIENCE</SoundID>
+			<SoundType>GAME_MUSIC</SoundType>
+			<Looping>true</Looping>
+			<MinVolume>50</MinVolume>
+			<MaxVolume>50</MaxVolume>
+			<IsMusic>true</IsMusic>
+		</Row>
+		<Row>
+			<ScriptID>AS2D_DOM_SPEECH_MACARTHUR</ScriptID>
+			<SoundID>SND_DOM_SPEECH_MACARTHUR</SoundID>
+			<SoundType>GAME_SPEECH</SoundType>
+			<iMinVolume>50</iMinVolume>
+			<iMaxVolume>50</iMaxVolume>
+		</Row>
+	</Audio_2DSounds>
+</GameData>

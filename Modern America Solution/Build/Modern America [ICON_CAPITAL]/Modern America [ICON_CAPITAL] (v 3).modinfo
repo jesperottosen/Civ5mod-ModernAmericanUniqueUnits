@@ -63,11 +63,13 @@
     <File md5="35312392FFFDED87F849341B68B6DEFF" import="1">Art/SV_apache.dds</File>
     <File md5="AAFBE6F29939A7F9FFB567B0970C4411" import="0">ModernAmerican_Text.xml</File>
     <File md5="1CF912A649057B803BADBE06AEB1BDBB" import="0">ModernAmerican_Leader.xml</File>
-    <File md5="ECBA298D0942CE64757C27908D222723" import="0">ModernAmerican_Civ.xml</File>
+    <File md5="D5BB0575C2441A3C1165D4667B928B17" import="0">ModernAmerican_Civ.xml</File>
     <File md5="FB4479160EB8238BEF3B518BD0889EE7" import="0">ModernAmerican_Promotions.xml</File>
     <File md5="65DB533E5528D26FB37A6914DDBDA7DF" import="0">ModernAmerican_Units.xml</File>
     <File md5="D9AE0C6D5B5AAFAA4FC191B5DF8888ED" import="1">ModernAmerican_Leaderhead.xml</File>
     <File md5="DDA52FA942AC2F76ECC903EEDEBC6476" import="0">ModernAmerican_Atlas.xml</File>
+    <File md5="A0D4228C10DBC730A0E98A8B5F9C2481" import="1">Sounds/MacArthur.mp3</File>
+    <File md5="C7260917E6CE75E09B1778CEBED27B73" import="0">Sounds/SWD_Sounds.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -82,6 +84,7 @@
       <UpdateDatabase>ModernAmerican_Text.xml</UpdateDatabase>
       <UpdateDatabase>CieYoZaAmerica.xml</UpdateDatabase>
       <UpdateDatabase>Art/SWD_Leaderhead.xml</UpdateDatabase>
+      <UpdateDatabase>Sounds/SWD_Sounds.xml</UpdateDatabase>
     </OnModActivated>
   </Actions>
 </Mod>
